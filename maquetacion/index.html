@@ -1,56 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xacademy Clase 1 maquetacion</title>
-    <style>
-        body {
-            margin: 0;
-        }
-        p {
-            margin-right: 40px;
-        }
-        h1 {
-            margin: 0px 400px;
-            text-align: center;
-        }
-        button.redondo {
-            background-color: white;
-            border: 1px solid black;
-            border-radius: 25px;
-            padding: 0px 20px;
-            height: 32px;
-        }
-        div#introduction-actions {
-            display: flex;
-            justify-content: center;
-        }
-    </style>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Fundación Tecnología con Propósito</title>
 </head>
+
 <body>
-    <div id="header" style="border-bottom: 1px solid gray; display: flex; padding: 10px 100px; justify-content: space-between">
-        <div id="header-left">
-            <img src="logo.svg">
+    <div class="main">
+        <!-- MENU PRINCIPAL -->
+        <div class="nav">
+            <div class="container">
+                <div class="navbar-top">
+                    <div class="logo-navbar">
+                        <img src="img/technology-with-purpose.svg" alt="">
+                    </div>
+                    <div class="menu-top">
+                        <a href="#" class="menuItem">Nosotros</a>
+                        <a href="#" class="menuItem">Programas</a>
+                        <a href="#" class="menuItem">Capacitaciones</a>
+                        <a href="#" class="menuItem">Alianzas</a>
+                        <a href="#" class="menuItem">Contacto</a>
+                        <a href="#" class="menuItem btnSumate">Sumate +</a>
+                        <a href="#" class="menuItem"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="menuItem"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="header-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capaciontaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button class="redondo">Sumate +</button>
+        <!-- BANNER -->
+        <div class="banner">
+            <div class="contenidoBanner">
+                <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de
+                    la tecnología.</h1>
+                <a href="" class="btnContactanos-banner">Contactanos ➝</a>
+                <a href="" class="btnSumate-banner">Sumate +</a>
+            </div>
         </div>
+        <!-- SECCIÓN IMPACTO -->
+        <div class="impacto">
+            <div class="contenidoImpacto">
+                <div class="impactoTexto">
+                    <h2 class="titulo-seccion">.Impacto</h2>
+                    <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la
+                        comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado
+                        hacia el
+                        sector social.</p>
+                    </p>
+                </div>
+                <div class=impactoDatos>
+                    <div class="dato">
+                        <div class="cantidad">58</div>
+                        <p class="descripcion">Localidades</p>
+                    </div>
+                    <div class="dato">
+                        <div class="cantidad"> <span class="signo">+</span>50</div>
+                        <p class="descripcion">Mentores</p>
+                    </div>
+                    <div class="dato">
+                        <div class="cantidad">301</div>
+                        <p class="descripcion">Participantes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BANNER FIXED-->
+        <div class="banner-fixed"></div>
+
+        <!-- PROGRAMAS -->
+        <div class="programas">
+            <div class="container">
+                <h2 class="titulo-seccion">.Programas</h2>
+
+                <div class="programa">
+                    <div class="img-programa">
+                        <img src="img/xacademy-01-600x400.jpg" alt="">
+                    </div>
+                    <div class="info-programa">
+                        <img src="img/xacademy.svg" class="logoSantex" alt="">
+                        <p class="parrafoInfo">
+                            xAcademy es un programa de formación en tecnología llevado adelante por la Fundación
+                            Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la
+                            comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de
+                            personas en el mundo tecnológico.
+                        </p>
+                        <a href="" class="btnMasInfo">Más info ➝</a>
+                    </div>
+                    
+                </div>
+
+                <div class="programa">
+
+                    <div class="info-programa ">
+                        <h3>Robótica educativa: la tecnología del futuro</h3>
+                        <p class="parrafoInfo">
+                            Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad,
+                            el autodidactismo y las habilidades blandas necesarias para afrontar la revolución
+                            tecnológica del siglo XXI.
+                        </p>
+                        <a href="" class="btnMasInfo">Más info ➝</a>
+                    </div>
+                    <div class="img-programa bordeImg">
+                        <img src="img/robotica-educativa-07-600x400.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <h2 class="titulo-seccion">.Capacitaciones</h2>
+
+                <div class="programa">
+                    <div class="img-programa">
+                        <img src="img/estafas-virtuales-04-600x453.jpg" alt="">
+                    </div>
+                    <div class="info-programa">
+                        <h3>Estafas virtuales: ¿cómo protegernos?</h3>
+                        <p class="parrafoInfo">
+                            Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir
+                            de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de
+                            estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos
+                            útiles para navegar de manera más segura.
+                        </p>
+                        <a href="" class="btnMasInfo">Más info ➝</a>
+                    </div>
+                </div>
+
+                <div class="programa">
+
+                    <div class="info-programa">
+                        <h3>Seguridad informática para infancias</h3>
+                        <p class="parrafoInfo">
+                            ¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se
+                            brindan herramientas de seguridad y autocuidado digital.
+                        </p>
+                        <a href="" class="btnMasInfo">Más info ➝</a>
+                    </div>
+
+                    <div class="img-programa bordeImg">                       
+                        <img src="img/seguridad-informatica-para-infancias-600x398.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p>Realizado por Jośe Facundo Palomo (2023)</p>
+        </div>
+
+
     </div>
-    <div id="introduction" style="padding: 48px;">
-        <div id="introduction-text">
-            <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la tecnología.</h1>
-        </div>
-        <div id="introduction-actions" style="margin-top: 25px;">
-            <button class="redondo">Contactanos -></button>
-            <button class="redondo" style="margin-left: 14px;">Sumate +</button>
-        </div>
-    </div>
+
+    <script src="https://kit.fontawesome.com/41064449ea.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
