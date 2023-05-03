@@ -1,0 +1,279 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* MENU  */
+
+.nav{
+    width: 100%;
+    border-bottom: 1px solid #7d7d7d;
+    position: fixed;
+    background-color: #fff;
+}
+
+.navbar-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu-top{
+    display: flex;
+    align-items: center;
+}
+
+.menuItem{
+    display: inline-block;
+    margin-right: 2.5em;
+    font-size: 0.8em;
+    font-weight:400;    
+    color: black;
+}
+
+.menuItem:last-child{    
+    margin-right: 0;    
+}
+
+.menuItem:hover{
+    color: #6b53f0;
+}
+
+
+.btnSumate{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.btnSumate:hover{
+    color: #fff;
+    background: #000;
+}
+
+
+.logo-navbar img{
+    width: 8em;
+}
+
+/* BANNER*/
+
+.banner{    
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.contenidoBanner{
+    width: 32%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.7em;
+    margin-bottom: 30px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.contenidoBanner a{
+    margin-right: 30px;
+}
+
+.contenidoBanner a:last-child{
+    margin-right: 30px;
+}
+
+.btnSumate-banner{
+    color: #6b53f0;;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #6b53f0;;
+    margin-bottom: 50px;
+}
+
+.btnSumate-banner:hover{
+    color: #fff;
+    background: #6b53f0;
+}
+
+.btnContactanos-banner{
+    color: #000;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.btnContactanos-banner:hover{
+    color: #fff;
+    background: #000;
+}
+
+
+/* SECCIÓN IMPACTO */
+
+.impacto{
+    padding: 100px;
+    background-color: #201b24;
+}
+
+.contenidoImpacto{
+    color: #fff;
+    width: 38%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* BANNER FIXED */
+
+.banner-fixed{  
+    height: 100vh;
+    background: fixed;
+    background-image: url("img/twp-home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    
+}
+
+
+/* SECCIÓN IMPACTO */
+
+.contenidoImpacto{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+}
+
+.impactoTexto{
+    width: 45%;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.impactoDatos{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.dato{
+    width: 28%;
+    text-align: center;
+}
+
+.cantidad{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titulo-seccion{
+    font-size: 2em;
+    font-weight: 700;
+    margin:  10px 0;
+}
+
+.descripcion{
+    color: #797e87;
+}
+
+.signo{
+    color: #6b53f0;
+    font-size: 0.7em;
+    line-height: 50%;
+}
+
+
+/* SECCIÓN PROGRAMAS */
+
+.programas{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.programa{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.info-programa{
+    width: 50%;      
+    border-radius: 20px;
+    
+}
+
+.parrafoInfo{
+    font-weight: 300;
+}
+
+.img-programa{
+    width: 50%;      
+    border-radius: 0 40px 40px 40px;
+    overflow: hidden;   
+    
+}
+
+.img-programa img{
+    width: 100%;  
+}
+
+.bordeImg{
+    border-radius: 40px 40px 0 40px;
+}
+
+.logoSantex{
+    height: 42px;
+}
+
+.btnMasInfo{
+    color: #000000;;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;;
+    margin-bottom: 50px;
+}
+
+.btnMasInfo:hover{
+    color: #fff;
+    background: #000000;
+}
+
+
+.programas .container h2{
+    margin: 40px 0;
+}
+
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
